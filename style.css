@@ -1,0 +1,38 @@
+body{
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pic{
+ position: relative;
+ text-align: center;
+ 
+
+}
+
+img{
+opacity: .9;
+position: relative;
+border-radius: 25px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+
+.words{
+    
+color: white;    
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+position: absolute;
+top: 5%;
+left: 50%;
+text-align: center;
+margin-left: -400px;
+font-family: 'Meie Script', cursive;
+font-size: 2rem;
+}
+
